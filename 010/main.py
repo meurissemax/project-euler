@@ -12,12 +12,12 @@ def check(number):
 
     return True
 
-if __name__ == '__main__':
-    n = 2000000
-    sum = 0
 
-    for i in range(2, n):
-        if check(i):
-            sum += i
+n = 2000000
+sum = 0
 
-    print(sum)
+for i in range(2, n):
+    if check(i):
+        sum += i
+
+print(sum)

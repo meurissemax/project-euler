@@ -12,17 +12,16 @@ def check(number):
 
     return True
 
-if __name__ == '__main__':
-    n = 10001
-    count = 0
-    i = 2
+n = 10001
+count = 0
+i = 2
 
-    while count < n:
-        if check(i):
-            count += 1
+while count < n:
+    if check(i):
+        count += 1
 
-        i += 1
+    i += 1
 
-    i -= 1
+i -= 1
 
-    print(i)
+print(i)
