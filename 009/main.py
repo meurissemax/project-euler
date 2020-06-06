@@ -13,12 +13,12 @@ def check(a, b, c):
     else:
         return False
 
-if __name__ == '__main__':
-    n = 1000
 
-    for i in range(1, n + 1):
-        for j in range(1, n + 1):
-            k = 1000 - i - j
+n = 1000
 
-            if check(i, j, k):
-                print(i * j * k)
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        k = 1000 - i - j
+
+        if check(i, j, k):
+            print(i * j * k)

@@ -1,6 +1,6 @@
 # Open and read the file
 
-with open('p022_names.txt', 'r') as file:
+with open('names.txt', 'r') as file:
 	content = file.read()
 
 # Transform the content of the file into a list

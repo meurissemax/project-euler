@@ -6,7 +6,7 @@ def remove(string):
 
     return string
 
-if __name__ == '__main__':
-    n = 1000
 
-    print(sum(len(remove(num2words(i))) for i in range(1, n + 1)))
+n = 1000
+
+print(sum(len(remove(num2words(i))) for i in range(1, n + 1)))

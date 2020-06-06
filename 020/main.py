@@ -9,7 +9,7 @@ def factorial(n):
 
     return f
 
-if __name__ == '__main__':
-    n = 100
 
-    print(sum(map(int, str(factorial(n)))))
+n = 100
+
+print(sum(map(int, str(factorial(n)))))
