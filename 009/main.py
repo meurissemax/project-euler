@@ -4,14 +4,12 @@ def check(a, b, c):
         b *= b
         c *= c
 
-        sum = a + b
+        s = a + b
 
-        if sum == c:
+        if s == c:
             return True
-        else:
-            return False
-    else:
-        return False
+
+    return False
 
 
 n = 1000

@@ -14,10 +14,10 @@ def check(number):
 
 
 n = 2000000
-sum = 0
+s = 0
 
 for i in range(2, n):
     if check(i):
-        sum += i
+        s += i
 
-print(sum)
+print(s)

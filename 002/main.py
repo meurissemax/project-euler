@@ -2,15 +2,15 @@ limit = 4000000
 
 a = 1
 b = 2
+c = a + b
 
-sum = 2
+s = 2
 
-while a + b <= limit:
+while c <= limit:
     c = a + b
-    a = b
-    b = c
+    a, b = b, c
 
     if (c % 2) == 0:
-        sum += c
+        s += c
 
-print(sum)
+print(s)

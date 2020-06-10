@@ -1,14 +1,12 @@
 def generate(actual):
     if (actual % 2) == 0:
-        next = actual / 2
+        return actual / 2
     else:
-        next = 3 * actual + 1
-
-    return next
+        return 3 * actual + 1
 
 
 limit = 1000000
-max = 0
+m = 0
 
 for i in range(2, limit):
     size = 0
@@ -19,7 +17,7 @@ for i in range(2, limit):
         size += 1
 
     if size > max:
-        max = size
+        m = size
         answer = i
 
 print(answer)

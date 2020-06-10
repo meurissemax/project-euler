@@ -1,5 +1,6 @@
 from num2words import num2words
 
+
 def remove(string):
     string = string.replace('-', '')
     string = string.replace(' ', '')
