@@ -12,6 +12,7 @@ def check(number):
 
     return True
 
+
 n = 10001
 count = 0
 i = 2

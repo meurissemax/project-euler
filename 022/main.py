@@ -1,7 +1,7 @@
 # Open and read the file
 
 with open('names.txt', 'r') as file:
-	content = file.read()
+    content = file.read()
 
 # Transform the content of the file into a list
 
@@ -21,12 +21,12 @@ names.sort()
 score = 0
 
 for i, name in enumerate(names):
-	name_score = 0
+    name_score = 0
 
-	for letter in name:
-		name_score += ord(letter) - ord('A') + 1
+    for letter in name:
+        name_score += ord(letter) - ord('A') + 1
 
-	score += name_score * (i + 1)
+    score += name_score * (i + 1)
 
 # Display final score
 
